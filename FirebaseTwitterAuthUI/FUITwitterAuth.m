@@ -16,8 +16,8 @@
 
 #import "FUITwitterAuth.h"
 #import <FirebaseAuth/FIRTwitterAuthProvider.h>
-#import <FirebaseAuthUI/FUIAuthBaseViewController.h>
-#import <FirebaseAuthUI/FUIAuthErrorUtils.h>
+#import <ChatSDKFirebaseAdapter/FUIAuthBaseViewController.h>
+#import <ChatSDKFirebaseAdapter/FUIAuthErrorUtils.h>
 #import <TwitterKit/TwitterKit.h>
 #import "FUIAuthBaseViewController_Internal.h"
 #import "FUIAuthStrings.h"
@@ -109,7 +109,7 @@ static NSString *const kSignInWithTwitter = @"SignInWithTwitter";
     } else {
       if (completion) {
         NSError *newError;
-        if (error.code == TWTRLogInErrorCodeCanceled) {
+        if (error.code == TWTRLogInErrorCodeCancelled) {
           newError = [FUIAuthErrorUtils userCancelledSignInError];
         } else {
           newError = [FUIAuthErrorUtils providerErrorWithUnderlyingError:error

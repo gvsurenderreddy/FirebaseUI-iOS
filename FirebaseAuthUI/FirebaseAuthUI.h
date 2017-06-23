@@ -24,16 +24,16 @@ FOUNDATION_EXPORT const unsigned char FirebaseAuthUIVersionString[];
 
 /*
  // Account settings will be released later.
-#import <FirebaseAuthUI/FUIAccountSettingsOperationType.h>
-#import <FirebaseAuthUI/FUIAccountSettingsViewController.h>
+#import <ChatSDKFirebaseAdapter/FUIAccountSettingsOperationType.h>
+#import <ChatSDKFirebaseAdapter/FUIAccountSettingsViewController.h>
  */
-#import <FirebaseAuthUI/FUIAuth.h>
-#import <FirebaseAuthUI/FUIAuthBaseViewController.h>
-#import <FirebaseAuthUI/FUIAuthErrorUtils.h>
-#import <FirebaseAuthUI/FUIAuthPickerViewController.h>
-#import <FirebaseAuthUI/FUIAuthProvider.h>
-#import <FirebaseAuthUI/FUIEmailEntryViewController.h>
-#import <FirebaseAuthUI/FUIPasswordRecoveryViewController.h>
-#import <FirebaseAuthUI/FUIPasswordSignInViewController.h>
-#import <FirebaseAuthUI/FUIPasswordSignUpViewController.h>
-#import <FirebaseAuthUI/FUIPasswordVerificationViewController.h>
+#import <ChatSDKFirebaseAdapter/FUIAuth.h>
+#import <ChatSDKFirebaseAdapter/FUIAuthBaseViewController.h>
+#import <ChatSDKFirebaseAdapter/FUIAuthErrorUtils.h>
+#import <ChatSDKFirebaseAdapter/FUIAuthPickerViewController.h>
+#import <ChatSDKFirebaseAdapter/FUIAuthProvider.h>
+#import <ChatSDKFirebaseAdapter/FUIEmailEntryViewController.h>
+#import <ChatSDKFirebaseAdapter/FUIPasswordRecoveryViewController.h>
+#import <ChatSDKFirebaseAdapter/FUIPasswordSignInViewController.h>
+#import <ChatSDKFirebaseAdapter/FUIPasswordSignUpViewController.h>
+#import <ChatSDKFirebaseAdapter/FUIPasswordVerificationViewController.h>

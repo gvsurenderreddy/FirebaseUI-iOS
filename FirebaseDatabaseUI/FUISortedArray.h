@@ -16,7 +16,7 @@
 
 @import FirebaseDatabase;
 
-#import <FirebaseDatabaseUI/FirebaseDatabaseUI.h>
+#import <ChatSDKFirebaseAdapter/FirebaseDatabaseUI.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

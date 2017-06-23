@@ -20,7 +20,7 @@
 
 @import UIKit;
 
-#import <FirebaseDatabaseUI/FUICollection.h>
+#import <ChatSDKFirebaseAdapter/FUICollection.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

@@ -14,7 +14,7 @@
 //  limitations under the License.
 //
 
-#import <FirebaseAuthUI/FirebaseAuthUI.h>
+#import <ChatSDKFirebaseAdapter/FirebaseAuthUI.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

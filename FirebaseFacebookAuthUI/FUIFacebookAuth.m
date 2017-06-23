@@ -19,8 +19,8 @@
 #import <FirebaseAuth/FirebaseAuth.h>
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
-#import <FirebaseAuthUI/FUIAuthBaseViewController.h>
-#import <FirebaseAuthUI/FUIAuthErrorUtils.h>
+#import <ChatSDKFirebaseAdapter/FUIAuthBaseViewController.h>
+#import <ChatSDKFirebaseAdapter/FUIAuthErrorUtils.h>
 #import "FUIAuthBaseViewController_Internal.h"
 #import "FUIAuthStrings.h"
 #import "FUIAuthUtils.h"
